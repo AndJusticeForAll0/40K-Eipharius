@@ -835,7 +835,7 @@ datum/job/ig/bullgryn
 	back = /obj/item/storage/backpack/satchel/warfare
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	suit = /obj/item/clothing/suit/armor/ogryn/two
-	id_type = /obj/item/card/id/pilgrim/innkeeper
+	id_type = /obj/item/card/id/pilgrim/underboss
 	pda_type = /obj/item/device/pda/penitent
 	l_ear = null
 	r_ear = /obj/item/device/radio/headset/red_team

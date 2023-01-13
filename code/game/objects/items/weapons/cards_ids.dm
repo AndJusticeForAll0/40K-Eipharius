@@ -432,8 +432,8 @@ var/const/NO_EMAG_ACT = -50
 /obj/item/card/id/pilgrim/penitent
 	access = list(access_village)
 
-/obj/item/card/id/pilgrim/innkeeper
-	job_access_type = /datum/job/bartender //TODO tweak to village bar
+/obj/item/card/id/pilgrim/underboss
+	job_access_type = /datum/job/underboss //TODO tweak to village bar
 	access = list(access_inn1, access_inn2, access_inn3, access_bar) //lets innkeeper access his rented rooms
 
 /obj/item/card/id/civilian/head //This is not the HoP. There's no position that uses this right now.

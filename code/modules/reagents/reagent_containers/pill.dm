@@ -243,9 +243,7 @@
 	icon_state = "pill4"
 /obj/item/reagent_containers/pill/zoom/New()
 	..()
-	reagents.add_reagent(/datum/reagent/impedrezene, 10)
-	reagents.add_reagent(/datum/reagent/synaptizine, 5)
-	reagents.add_reagent(/datum/reagent/hyperzine, 5)
+	reagents.add_reagent(/datum/reagent/dillutedzoom, 10)
 	color = reagents.get_color()
 
 

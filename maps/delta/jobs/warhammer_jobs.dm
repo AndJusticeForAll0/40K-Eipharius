@@ -30,10 +30,10 @@
 	/datum/job/hospitaller,
 	/datum/job/novice,
 	/datum/job/preacher,
-	/datum/job/innkeeper,
+	/datum/job/underboss,
 	/datum/job/bouncer,
-	/datum/job/pathfinder,
 	/datum/job/gangboy,
+	/datum/job/pathfinder,
 	/datum/job/penitent,
 	)
 

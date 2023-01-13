@@ -174,6 +174,25 @@
 	required_reagents = list(/datum/reagent/mercury = 1, /datum/reagent/sugar = 1, /datum/reagent/lithium = 1)
 	result_amount = 3
 
+/datum/chemical_reaction/dillutedzoom
+	name = "Dilluted Zoom"
+	result = /datum/reagent/dillutedzoom
+	required_reagents = list(/datum/reagent/radium = 1, /datum/reagent/sugar = 1, /datum/reagent/lithium = 1, /datum/reagent/silicon = 1)
+	result_amount = 1
+
+/datum/chemical_reaction/zoom
+	name = "Zoom"
+	result = /datum/reagent/zoom
+	required_reagents = list(/datum/reagent/radium = 1, /datum/reagent/sugar = 1, /datum/reagent/lithium = 1, /datum/reagent/silicon = 1, /datum/reagent/dillutedzoom = 5,/datum/reagent/tramadol = 1 )
+	result_amount = 5
+
+/datum/chemical_reaction/purezoom
+	name = "Pure Zoom"
+	result = /datum/reagent/purezoom
+	required_reagents = list(/datum/reagent/radium = 1, /datum/reagent/sugar = 1, /datum/reagent/lithium = 1, /datum/reagent/silicon = 1, /datum/reagent/zoom = 5,/datum/reagent/tramadol = 5 , /datum/reagent/acid/hydrochloric = 1, /datum/reagent/space_drugs = 10)
+	result_amount = 10
+
+
 /datum/chemical_reaction/lube
 	name = "Space Lube"
 	result = /datum/reagent/lube
